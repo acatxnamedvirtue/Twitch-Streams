@@ -1,0 +1,173 @@
+body {
+  background: #ecf0e7 !important;
+}
+
+.clearfix:after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.container {
+  width: 700px;
+  margin-top: 50px;
+}
+
+.header {
+  margin: auto;
+  width: 700px;
+  background: #5c5457;
+}
+
+.stream-container {
+  margin: auto;
+  width: 700px;
+}
+
+.header .title {
+  float: left;
+  color: #e1e1e6;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+  padding: 12px 50px 12px 65px;
+}
+
+.header .buttons {
+  float: right;
+}
+
+.offline {
+  background: #4a5e82;
+  color: #8ea7c2;
+}
+
+.online {
+  background: #b8cca6;
+  color: #5c5457;
+}
+
+.circle {
+  margin-left: 5px;
+  margin-top: 2px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#all .circle {
+  background: #5c5457;
+}
+
+#online .circle {
+  background: #b8cca6;
+}
+
+#offline .circle {
+  background: #8ea7c2;
+}
+
+#all {
+  margin: 11px 0 0 0;
+}
+
+.buttons {
+  width: 65px;
+  overflow: hidden;
+}
+
+.button {
+  cursor: pointer;
+  color: #5c5457;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: right;
+  width: 65px;
+  height: 20px;
+  background: #e1e1e6;
+  margin: 5px 0 0 0;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+.not-selected:hover {
+  transform:translateX(0);
+}
+
+.not-selected {
+  transition-duration: .5s;
+  transform:translateX(45px);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 2px;
+  margin-left: -40px;
+/*   height: 70px; */
+}
+
+li img {
+  float: left;
+  margin: 10px 0 0 20px;
+  border: 3px solid lightgrey;
+}
+
+li div {
+  float: left;
+  margin: 25px 0;
+}
+
+li div.account {
+  width: 150px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+li div.desc {
+  width: 440px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+li.offline div.account {
+  color: #b8cca6;
+}
+
+li.online div.account {
+  color: #4a5e82;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 10px;
+  margin-top: -7px;
+  background: #5c5457;
+}
